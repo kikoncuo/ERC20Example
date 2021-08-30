@@ -1,0 +1,21 @@
+{
+  "name": "smart-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "migrate": "npx truffle migrate",
+    "test": "npx truffle run coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "truffle": "^5.4.8"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.13",
+    "solidity-coverage": "^0.7.17"
+  }
+}
